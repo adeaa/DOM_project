@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
+
+
+.headline h1{
+    font-family: 'Norican', cursive;
+    text-align: center;
+    border: burlywood ;
+    border-radius: 20px;
+    border-style: groove;
+}
+.headline{
+    margin: 60px ;
+}
+
+
+
+.r-box {
+  margin: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.225);
+  box-shadow: 0px 0px 10px 1px #888888;
+  border-radius: 20px;
+  background-image: url(https://media.istockphoto.com/vectors/background-vector-id1151866888?k=6&m=1151866888&s=612x612&w=0&h=gBIOydipsapv9oY8CS2a_I1w3xtHP2mSxSV00khHd3E=);
+  min-height: 500px;
+}
+
+
+
+.grab {
+  background-color: #fff;
+  border-radius: 10px;
+  font-family: monospace;
+  font-weight: bold;
+  margin: 2px 2px;
+  width: 24.4%;
+}
+
+.all_items{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* ITEMS */
+.fa-heart {
+  color: rgb(207, 0, 0);
+}
+
+
+/*buttons*/
+.liked{
+  border: 2px solid rgb(207, 0, 0);
+}
+
+button:hover{
+  cursor:pointer;
+}
+button input{
+  width: 40px ;
+}
+button{
+  font-display: block;
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.459);
+  justify-content:space-evenly;
+    
+}
+button img{
+  float: left ;
+}
+
+
+.fa-trash:active {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) ;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+
+/*total*/
+#total{
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+.total {
+  display: flex;
+  justify-content:center;
+  width: 100%;
+  background-color: burlywood;
+  border-radius: 20px;
+}
+
+
+
+
+
+/*Basket*/
+.fa-shopping-basket{
+    display: inline-block;
+    text-align: center;
+
+}
